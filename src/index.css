@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Playwrite%20DK%20Loopet:700|Playwrite%20DK%20Loopet:400");
+
+body {
+  background-color: #dbeafe;
+  color: white;
+  color: #172554;
+  font-family: cursive;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
+.move {
+  animation: moveit 2s infinite;
+}
+
+@keyframes moveit {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    transform: translateX();
+  }
+}
