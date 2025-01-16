@@ -19,6 +19,12 @@ body {
   font-family:open-sans-custom;
 }
 
+@media only screen and (min-width: 900px) {
+  body {
+    font-family: cursive;
+  }
+}
+
 body::-webkit-scrollbar{
   width: 0;
 }
