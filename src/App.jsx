@@ -7,7 +7,7 @@ import Contact from "./component/Contact";
 import Portfolio from "./component/Portfolio";
 export default function App() {
   return (
-    <div className="font-body overflow-x-hidden">
+    <div className="myfont overflow-x-hidden">
       <Router>
         <Navbar />
       <Routes>

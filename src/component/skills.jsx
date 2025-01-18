@@ -24,14 +24,14 @@ export default function Skills() {
             <img src="\IMAG\js.svg" alt="js" />
             <img src="\IMAG\jquery.svg" alt="jquery" />
           </div>
-          <div className="flex h-24 gap-2">
+          <div className="flex h-24 gap-2 mb-4">
             <img src="\IMAG\react.svg" alt="react" />
             <img src="\IMAG\redux.svg" alt="redux" />
             <img src="\IMAG\nodejs.svg" alt="nodejs" />
             <img src="\IMAG\mongodb.svg" alt="nodejs" />
             <img src="\IMAG\github.svg" alt="github" />
           </div>
-          <ul className="font-bold flex flex-col justify-center items-center">
+          <ul className="font-bold flex flex-col gap-4 justify-center items-center">
             <li>
               ⚡Front-end: Proficient in building responsive and visually
               appealing web interfaces using HTML, CSS, Tailwind, JavaScript,
