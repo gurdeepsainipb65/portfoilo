@@ -5,7 +5,7 @@ export default function Portfolio() {
       <div className="flex justify-center items-center text-2xl p-4">
         My Projects
       </div>
-      <ul className="flex flex-col">
+      <ul className="flex justify-center items-center flex-col lg:flex-row">
         <li className="p-4">
           <Card
             name={"Movie Gallery"}
@@ -18,7 +18,15 @@ export default function Portfolio() {
           />
         </li>
         <li className="p-4">
-          <Card />
+          <Card
+            name={" E-Commerce Website "}
+            desc={
+              "The E-Commerce Pizza Ordering Website is an interactive web application that enables customers to browse, customize, and order their favorite pizzas online with ease."
+            }
+            image={"/IMAG/ecommerce.png"}
+            siteurl={"https://ecommerce-website-sage-five.vercel.app/"}
+            codeurl={"https://github.com/gurdeepsainipb65/Ecommerce-website"}
+          />
         </li>
       </ul>
     </div>
