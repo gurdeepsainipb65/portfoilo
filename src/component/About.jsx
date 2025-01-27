@@ -62,9 +62,9 @@ export default function About() {
                   </tr>
                 </tbody>
               </table>
-              <a href="/" download>
-                        <Hireme text={"Download Cv"} />
-                      </a>
+              <a href="/IMAG/Gurdeep_Singh_CV.pdf" download>
+                <Hireme text={"Download Cv"} />
+              </a>
             </div>
           </div>
         </div>

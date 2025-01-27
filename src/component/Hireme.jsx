@@ -1,13 +1,11 @@
 import React from "react";
-import { Link, Links } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import styled from "styled-components";
 
 const Hireme = ({ text }) => {
   return (
     <StyledWrapper>
-      <Link to="/contact">
         <button className="font-semibold"> {text}</button>
-      </Link>
     </StyledWrapper>
   );
 };

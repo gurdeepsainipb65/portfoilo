@@ -10,12 +10,12 @@ export default function App() {
     <div className="open-sans-custom overflow-x-hidden">
       <Router>
         <Navbar />
-      <Routes>
+        <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About/>} ></Route>
-          <Route path="/skills" element={<Skills/>}></Route>
-          <Route path="/contact" element={<Contact/>} ></Route>
-          <Route path="/portfolio" element={<Portfolio/>}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
         </Routes>
       </Router>
     </div>

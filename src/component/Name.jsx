@@ -16,8 +16,8 @@ export default function Name() {
         <p className="text-3xl text-blue-950 font-semibold lg:flex p-2 lg:text-4xl">
           Full stack developer
         </p>
-        <Link to="/hire me" className="lg:flex p-2">
-          <Hireme text={"Hire Me"}/>
+        <Link to="/contact" className="lg:flex p-2">
+          <Hireme text={"Hire Me"} page={"/contact"}/>
         </Link>
       </div>
       <div className="hidden lg:flex w-1/2">
