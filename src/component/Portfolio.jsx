@@ -33,6 +33,17 @@ export default function Portfolio() {
             codeurl={"https://github.com/gurdeepsainipb65/Ecommerce-website"}
           />
         </li>
+        <li>
+          <Card
+            name={"TODO with backend"}
+            desc={
+              "To-Do List web application that allows users to create, read, update, and delete (CRUD) tasks. This application will have a RESTful API developed using Node.js and a MongoDB database to store the tasks."
+            }
+            image={"/IMAG/todo.jpeg"}
+            siteurl={"https://todo-app-using-node-js-x49w.onrender.com/"}
+            codeurl={"https://github.com/gurdeepsainipb65/todo-app-using-node.js"}
+          />
+        </li>
       </ul>
     </div>
   );
