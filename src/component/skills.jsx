@@ -3,7 +3,7 @@ export default function Skills() {
     <>
       <div className="lg:flex">
         <div className="lg:w-1/2">
-          <img className="w-full" src="\IMAG\aboutme2.png" alt="aboutme" />
+          <img className="w-full move" src="\IMAG\aboutme2.png" alt="aboutme" />
         </div>
         <div className="flex flex-col p-3 justify-center items-center lg:w-1/2">
           <div className="text-2xl">Full Stack Development</div>

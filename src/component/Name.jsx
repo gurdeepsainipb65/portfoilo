@@ -20,7 +20,7 @@ export default function Name() {
       </div>
       <div className="hidden lg:flex w-1/2">
         <div>
-          <img src="IMAG\sardar image.png" alt="img" />
+          <img className="move" src="IMAG\sardar image.png" alt="img" />
         </div>
       </div>
     </div>

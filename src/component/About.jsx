@@ -11,7 +11,7 @@ export default function About() {
             <img
               src="/IMAG/about_me1.png"
               alt="img"
-              className="md:move max-w-full h-auto"
+              className="move max-w-full h-auto"
             />
           </div>
           <div className="lg:w-1/2">
