@@ -13,12 +13,7 @@ export default function Navbar() {
 
   return (
     <div className=" bg-blue-100 px-10">
-      <nav
-        data-aos="fade-up"
-        data-aos-delay="50"
-        data-aos-duration="2000"
-        className="max-w-full p-2 bg-blue-100 text-blue-950 h-20 flex items-center justify-between"
-      >
+      <nav className="max-w-full p-2 bg-blue-100 text-blue-950 h-20 flex items-center justify-between">
         <Link>
           <img className="w-48 h-6" src="\IMAG\logo.png" alt="gurdeep singh" />
         </Link>

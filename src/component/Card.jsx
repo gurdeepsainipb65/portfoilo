@@ -12,7 +12,7 @@ const Card = ({name, desc, image ,siteurl , codeurl}) => {
         />
         <div className="card__content">
           <p className="card__title">{name}</p>
-          <p className="card__description">
+          <p className="card__description line-clamp-4">
             {desc}
           </p>
           <div className="flex gap-4">

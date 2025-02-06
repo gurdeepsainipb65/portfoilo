@@ -2,15 +2,12 @@ import Card from "./Card";
 export default function Portfolio() {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-delay="100"
-      data-aos-duration="1000"
+    
     >
       <div className="flex justify-center items-center text-2xl p-4">
         My Projects
       </div>
-      <ul className="flex justify-center items-center flex-col lg:flex-row">
+      <ul className="grid grid-cols-1 lg:grid-cols-3  justify-center items-center">
         <li className="p-4">
           <Card
             name={"Movie Gallery"}
@@ -33,7 +30,21 @@ export default function Portfolio() {
             codeurl={"https://github.com/gurdeepsainipb65/Ecommerce-website"}
           />
         </li>
-        <li>
+
+        <li className="p-4" >
+          <Card
+            name={"full stack blog website"}
+            desc={
+              "Our Full Stack Blog Website, built with the MERN (MongoDB, Express.js, React, Node.js) stack, is a dynamic and feature-rich platform for content creators, bloggers, and readers. It provides a seamless experience for writing, managing, and engaging with blog content"
+            }
+            image={"/IMAG/blogwebsite.jpeg"}
+            siteurl={"https://blogswebsitefrontend.vercel.app/"}
+            codeurl={
+              "https://github.com/gurdeepsainipb65/blogswebsitebackend"
+            }
+          />
+        </li>
+        <li className="p-4" >
           <Card
             name={"TODO with backend"}
             desc={
@@ -41,7 +52,9 @@ export default function Portfolio() {
             }
             image={"/IMAG/todo.jpeg"}
             siteurl={"https://todo-app-using-node-js-x49w.onrender.com/"}
-            codeurl={"https://github.com/gurdeepsainipb65/todo-app-using-node.js"}
+            codeurl={
+              "https://github.com/gurdeepsainipb65/todo-app-using-node.js"
+            }
           />
         </li>
       </ul>

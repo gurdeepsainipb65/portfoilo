@@ -7,24 +7,14 @@ export default function About() {
           <div className="text-2xl text-blue-950">ABOUT ME</div>
         </div>
         <div className="py-2 lg:flex w-full">
-          <div
-            data-aos="fade-right"
-            data-aos-delay="150"
-            data-aos-duration="1500"
-            className="lg:w-1/2 mt-4"
-          >
+          <div className="lg:w-1/2 mt-4">
             <img
               src="/IMAG/about_me1.png"
               alt="img"
-              className="md:move max-w-full h-auto"
+              className="move max-w-full h-auto"
             />
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-delay="150"
-            data-aos-duration="1500"
-            className="lg:w-1/2"
-          >
+          <div className="lg:w-1/2">
             <p className="text-2xl lg:text-4xl p-2 text-center lg:mt-4">
               Hi There! I'm Gurdeep Singh
             </p>
