@@ -35,7 +35,7 @@ export default function Portfolio() {
           <Card
             name={"full stack blog website"}
             desc={
-              "Our Full Stack Blog Website, built with the MERN (MongoDB, Express.js, React, Node.js) stack, is a dynamic and feature-rich platform for content creators, bloggers, and readers. It provides a seamless experience for writing, managing, and engaging with blog content"
+              "Our Full Stack Blog Website, built with the MERN (MongoDB, Express.js, React, Node.js) stack is a dynamic and feature-rich platform for content creators, bloggers, and readers. It provides a seamless experience for writing, managing, and engaging with blog content"
             }
             image={"/IMAG/blogwebsite.jpeg"}
             siteurl={"https://blogswebsitefrontend.vercel.app/"}
