@@ -2,20 +2,10 @@ export default function Skills() {
   return (
     <>
       <div className="lg:flex">
-        <div
-          data-aos="fade-right"
-          data-aos-delay="150"
-          data-aos-duration="1500"
-          className="lg:w-1/2"
-        >
+        <div className="lg:w-1/2">
           <img className="w-full" src="\IMAG\aboutme2.png" alt="aboutme" />
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-delay="150"
-          data-aos-duration="1500"
-          className="flex flex-col p-3 justify-center items-center lg:w-1/2"
-        >
+        <div className="flex flex-col p-3 justify-center items-center lg:w-1/2">
           <div className="text-2xl">Full Stack Development</div>
           <div className="flex gap-2">
             <img src="\IMAG\html.svg" alt="html" />

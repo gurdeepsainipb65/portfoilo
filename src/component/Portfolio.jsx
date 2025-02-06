@@ -2,10 +2,7 @@ import Card from "./Card";
 export default function Portfolio() {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-delay="100"
-      data-aos-duration="1000"
+    
     >
       <div className="flex justify-center items-center text-2xl p-4">
         My Projects
