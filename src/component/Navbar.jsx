@@ -24,9 +24,9 @@ export default function Navbar() {
           <li className=" hover:font-extrabold">
             <Link to="/about">ABOUT</Link>
           </li>
-          <li className=" hover:font-extrabold">
+          {/* <li className=" hover:font-extrabold">
             <Link to="/portfolio">PORTFOLIO</Link>
-          </li>
+          </li> */}
           <li className=" hover:font-extrabold">
             <Link to="/contact">CONTACT</Link>
           </li>
@@ -56,9 +56,9 @@ export default function Navbar() {
           <li className=" hover:font-extrabold">
             <Link to="/resume">RESUME</Link>
           </li>
-          <li className=" hover:font-extrabold">
+          {/* <li className=" hover:font-extrabold">
             <Link to="/portfolio">PORTFOLIO</Link>
-          </li>
+          </li> */}
           <li className=" hover:font-extrabold">
             <Link to="/contact">CONTACT</Link>
           </li>
