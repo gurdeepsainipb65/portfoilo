@@ -1,11 +1,11 @@
 import React from "react";
-import { Link, } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Hireme = ({ text }) => {
   return (
     <StyledWrapper>
-        <button className="font-semibold"> {text}</button>
+      <button className="font-semibold"> {text}</button>
     </StyledWrapper>
   );
 };

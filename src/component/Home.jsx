@@ -3,7 +3,7 @@ import About from "./About";
 import Whatido from "./Whatido";
 import Skills from "./skills";
 import Contact from "./Contact";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <About />
       <Skills />
       <Whatido />
-      <Contact/>
+      <Contact />
       {/* <Portfolio/> */}
     </div>
   );

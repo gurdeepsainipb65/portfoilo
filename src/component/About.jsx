@@ -2,7 +2,7 @@ import Hireme from "./Hireme";
 export default function About() {
   return (
     <>
-      <div className="lg: flex flex-col lg:flex justify-between items-center">
+      <div className="bg-blue-100 flex flex-col lg:flex justify-between items-center">
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="text-2xl text-blue-950">ABOUT ME</div>
         </div>
