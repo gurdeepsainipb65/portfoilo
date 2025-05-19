@@ -13,7 +13,7 @@ export default function Home() {
       <Skills />
       <Whatido />
       <Contact/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
     </div>
   );
 }
