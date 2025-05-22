@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-10 px-2 lg:px-20">
+    <div className="flex flex-col lg:flex-row gap-10 px-2 my-8  lg:px-20">
       <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
         <div className="mb-12 move lg:mb-0">
           <h2 className="mb-6 text-[32px] font-bold uppercase text-[#172554] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
